@@ -1,0 +1,8 @@
+Primeiros comandos com o git:
+	$ MKDIR "nome do repositório"
+	$ CD "nome do repositório"
+	$ GIT INIT
+	*criar um arquivo/pasta/etc*
+	$ GIT ADD .
+	$ GIT COMMIT -M "mensagem significativa"
+	$ GIT PUSH ORIGIN MAIN
