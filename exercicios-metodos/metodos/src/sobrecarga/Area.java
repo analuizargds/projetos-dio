@@ -2,18 +2,18 @@ package sobrecarga;
 
 public class Area {
 	
-	public static void areaQuadrilatero(double base) {
-		double areaQuadrado = base * base;
-		System.out.println("A área do quadrado é: " + areaQuadrado);
+	public static double areaQuadrilatero(double base) {
+		
+		return base * base;
 	}
 	
-	public static void areaQuadrilatero(double base, double altura) {
-		double areaRetangulo = base * altura;
-		System.out.println("A área do retângulo é: " + areaRetangulo);
+	public static double areaQuadrilatero(double base, double altura) {
+
+		return base * altura;
 	}
 	
-	public static void areaQuadrilatero(double baseMenor, double baseMaior, double altura) {
-		double areaTrapezio = ((baseMenor + baseMaior) * altura)/2;
-		System.out.println("A área do trapézio é: " + areaTrapezio);
+	public static double areaQuadrilatero(double baseMenor, double baseMaior, double altura) {
+
+		return ((baseMenor + baseMaior) * altura)/2;
 	}
 }
